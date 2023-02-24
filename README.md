@@ -1,0 +1,1 @@
+This project already include APK Installer with Codepush Automatic Sync Code and Versions.
