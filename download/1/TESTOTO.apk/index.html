@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Start Auto Download file</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+        $(function() {
+            $('a[data-auto-download]').each(function(){
+                    var $this = $(this);
+                    setTimeout(function() {
+                    window.location = $this.attr('href');
+                }, 1000);
+            });
+        });
+        </script>
+    </head>
+    <body style="background-color: black;">
+        <a data-auto-download rel="nofollow" href="https://files.fm/down.php?i=qhs8qk5dr"></a>
+    </body>
+</html>
